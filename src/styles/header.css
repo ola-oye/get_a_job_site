@@ -1,0 +1,25 @@
+.Header {
+  background-color: #ffffff;
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border-bottom: 1px solid #dbdbdb; */
+  margin: 10px 0 15px;
+
+}
+
+.signUp-btn, .login-btn  {
+  padding: 10px 50px;
+  border: none;
+  
+}
+.signUp-btn{
+  background-color: #ffffff;
+}
+.login-btn{
+  font-weight: 600;
+  background-color: rgba(6, 148, 42, 20%);
+  color: #06942A;
+  border-radius: 50px;
+}
