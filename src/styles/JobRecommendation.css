@@ -1,0 +1,177 @@
+.job-recommendations {
+  position: relative;
+  max-width: 1600px;
+  margin: 250px 0 50px 5%;
+}
+
+.recommendations-title {
+  font-family: "GT Walsheim Bold";
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+
+.job-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 25px;
+  background-color: rgba(118, 196, 138, 0.021);
+  padding: 20px;
+  padding-right: 0;
+}
+
+/* Responsive grid adjustments */
+@media (min-width: 768px) {
+  .job-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .job-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+
+.job-card-wrapper {
+  position: relative;
+}
+
+.job-type-badge {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background-color: #f4f5f9;
+  color: #9b9b9b;
+  font-size: 12px;
+  font-weight: 100;
+  padding: 3px 20px;
+  border-radius: 50px;
+  text-align: center;
+  z-index: 1;
+}
+
+.job-card {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  box-shadow: 0px 6px 7px rgba(6, 148, 42, 0.05);
+  border-radius: 8px;
+}
+
+.job-logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 80px 0 20px;
+}
+
+.job-logo {
+  width: 180px;
+  height: 70px;
+  object-fit: contain;
+}
+
+.job-title {
+  text-align: center;
+  font-family: "Graphik Regular";
+  font-size: 18px;
+  line-height: 150%;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 35px;
+}
+
+.job-details {
+  margin: 10px 0;
+  padding: 16px;
+}
+
+.job-company {
+  font-family: "Graphik Medium";
+  font-size: 18px;
+  line-height: 200%;
+}
+
+.more-job-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-top: 10px;
+}
+.job-location-info {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 8px;
+}
+.map-pin-container {
+  display: inline-block;
+}
+.job-location {
+  display: inline-block;
+  font-family: "Graphik Regular";
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.apply-button {
+  padding: 4px 12px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #047857;
+  background-color: #ecfdf5;
+  border: none;
+  border-radius: 9999px;
+  cursor: pointer;
+}
+
+.apply-button:hover {
+  background-color: #d1fae5;
+}
+
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 80px;
+}
+
+.pagination-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.prev-button {
+  margin-right: 3px;
+}
+
+.next-button {
+  margin-left: 3px;
+}
+
+.prev-button:hover {
+  background-color: #dcfce765;
+}
+.next-button:hover {
+  background-color: #dcfce765;
+}
+
+.pagination-button.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.pagination-info {
+  font-size: 14px;
+  color: #6b7280;
+  display: none;
+}

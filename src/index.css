@@ -1,22 +1,51 @@
+@font-face {
+  font-family: "Graphik Medium";
+  src: url("assets/fonts/Graphik-Medium-Trial.otf");
+}
+@font-face {
+  font-family: "Graphik Regular";
+  src: url("assets/fonts/Graphik-Regular-Trial.otf");
+}
+
+@font-face {
+  font-family: "GT Walsheim Bold";
+  src: url("assets/fonts/GT-Walsheim-Bold-Trial-BF651b7fc737c57.otf");
+}
+@font-face {
+  font-family: "GT Walsheim Medium";
+  src: url("assets/fonts/GT-Walsheim-Medium-Trial-BF651b7fc728fb3.otf");
+}
+@font-face {
+  font-family: "GT Walsheim Regular";
+  src: url("assets/fonts/GT-Walsheim-Regular-Trial-BF651b7fc71a47d.otf");
+}
+
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;color: #3F403F;
-  font-family: Graphik;
+  box-sizing: border-box;
+  color: #3f403f;
+  font-family: "Graphik Regular", sans-serif;
   font-size: 1rem;
 }
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+    sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #ffffff;
-  margin-inline: 6%;
-  
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.body-container {
+  position: relative;
+}
+.green-background-container {
+  position: absolute;
+  z-index: 0;
+}
+.green-background {
+  object-fit: contain;
+}
+img {
+  width: 100%;
 }

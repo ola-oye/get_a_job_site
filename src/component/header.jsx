@@ -5,18 +5,30 @@ import Navbar from "./Navbar";
 function Header() {
   return (
     <div className="Header">
-      <div className="logo">
-        <img
-          className="getajob-logo"
-          src="images/getajob_logo.png"
-          alt="Get a Job Logo"
-        />
-      </div>
+      <Logo />
       <Navbar />
-      <div className="Access-btn">
-        <button className="signUp-btn">Sign Up</button>
-        <button className="login-btn">Log In</button>
-      </div>
+      <AuthBtn />
+    </div>
+  );
+}
+
+function Logo() {
+  return (
+    <div className="logo">
+      <img
+        className="getajob-logo"
+        src="images/getajob_logo.png"
+        alt="Get a Job Logo"
+      />
+    </div>
+  );
+}
+
+function AuthBtn() {
+  return (
+    <div className="Access-btn">
+      <button className="signUp-btn">Sign Up</button>
+      <button className="login-btn">Log In</button>
     </div>
   );
 }
