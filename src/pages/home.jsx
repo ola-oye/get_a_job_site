@@ -3,16 +3,17 @@ import "../styles/home.css";
 import "../styles/banner.css";
 import Banner from '../component/Banner'
 import "../styles/JobRecommendation.css";
-// import Recommended from "../component/Recommended";
-
+import HowItWorks from "../component/HowItWorks";
 import JobReccomendation from "../component/JobReccomendation";
+import PopularCategories from "../component/PopularCategories";
 
 function Home() {
   return (
     <div className="home">
       <Banner />
-      {/* <Recommended /> */}
       <JobReccomendation />
+      <HowItWorks />
+      <PopularCategories />
     </div>
   );
 }
