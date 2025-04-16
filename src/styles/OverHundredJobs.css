@@ -1,0 +1,51 @@
+.OverHundredJobs-container {
+  height: 770px;
+  background: rgba(6, 148, 42, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 120px 0 7% 120px;
+}
+.discription {
+  max-width: 528px;
+}
+
+.discription * {
+  margin-bottom: 35px;
+}
+.dis-title {
+  font-family: "GT Walsheim Bold";
+  font-size: 36px;
+  line-height: 150%;
+}
+.first-text .second-text {
+  line-height: 200%;
+}
+/* .second-text{
+
+} */
+
+.learnmore-wrapper{
+    width: 120px;
+}
+
+.logo-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.logo-wrapper {
+  width: 125px;
+  height: 125px;
+  border-radius: 100%;
+  background: #ffffff;
+  box-shadow: 10px 10px 30px rgba(118, 196, 138, 0.04);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  width: 90px;
+  height: 55px;
+  object-fit: contain;
+}

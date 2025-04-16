@@ -6,6 +6,8 @@ import "../styles/JobRecommendation.css";
 import HowItWorks from "../component/HowItWorks";
 import JobReccomendation from "../component/JobReccomendation";
 import PopularCategories from "../component/PopularCategories";
+import OverHundredJobs from "../component/OverHundredJobs";
+import Testimony from "../component/Testimony";
 
 function Home() {
   return (
@@ -14,6 +16,8 @@ function Home() {
       <JobReccomendation />
       <HowItWorks />
       <PopularCategories />
+      <OverHundredJobs />
+      <Testimony />
     </div>
   );
 }

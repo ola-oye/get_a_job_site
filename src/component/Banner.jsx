@@ -1,8 +1,15 @@
+import HeroImage from "./HeroImage";
+
 function Banner() {
   return (
     <div className="banner">
       <TextSearchBox />
-      <HeroImage />
+      <HeroImage
+        width={565}
+        height={707}
+        bgImage={"images/heroImg.png"}
+        borderRadius={20}
+      />
     </div>
   );
 }
@@ -13,14 +20,6 @@ function TextSearchBox() {
       <BannerText />
       <Search />
       <HiringCompaniesLogo />
-    </div>
-  );
-}
-
-function HeroImage() {
-  return (
-    <div className="heroImgBox">
-      <div className="bg"></div>
     </div>
   );
 }
